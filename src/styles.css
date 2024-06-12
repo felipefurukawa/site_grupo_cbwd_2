@@ -1,0 +1,159 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5dc; /* Background resembling cheese color */
+    color: #4b3b0a; /* Dark brown text for contrast */
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    color: #d4a017; /* Goldish color for headers */
+  }
+  
+  a {
+    color: #4b3b0a;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Container Styles */
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Header Styles */
+  header {
+    background-color: #d4a017;
+    padding: 20px 0;
+    text-align: center;
+    color: #fff;
+  }
+  
+  /* Form Styles */
+  form {
+    background-color: #fff8dc; /* Light beige form background */
+    border: 1px solid #d4a017;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px; /* Space between forms and other elements */
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="date"],
+  select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #d4a017;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  button {
+    background-color: #d4a017;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  button:hover {
+    background-color: #c29314; /* Darker shade for hover effect */
+  }
+  
+  /* List Styles */
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    background-color: #fff8dc;
+    margin: 10px 0;
+    padding: 15px;
+    border: 1px solid #d4a017;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap; /* Allows items to wrap within the list item */
+  }
+  
+  li > div {
+    flex: 1 1 100%; /* Each div within li takes full width */
+    margin-bottom: 10px;
+  }
+  
+  li button {
+    background-color: #b5651d; /* A warm brown for delete buttons */
+  }
+  
+  li button:hover {
+    background-color: #8c4b1a;
+  }
+  
+  li a {
+    color: #d4a017;
+    margin-right: 10px;
+  }
+  
+  li a:hover {
+    color: #c29314;
+  }
+  
+  li .actions {
+    display: flex;
+    gap: 10px;
+    flex: 1 1 100%;
+    justify-content: flex-end;
+  }
+  
+  /* Progress Bar Styles */
+  progress {
+    width: 100%;
+    height: 20px;
+    border-radius: 8px;
+    overflow: hidden;
+    margin-bottom: 20px;
+  }
+  
+  progress::-webkit-progress-bar {
+    background-color: #fff8dc;
+  }
+  
+  progress::-webkit-progress-value {
+    background-color: #d4a017;
+  }
+  
+  progress::-moz-progress-bar {
+    background-color: #d4a017;
+  }
+  
+  /* Additional Utility Styles */
+  .text-center {
+    text-align: center;
+  }
+  
+  .mt-20 {
+    margin-top: 20px;
+  }
+  
+  .mb-20 {
+    margin-bottom: 20px;
+  }
+  
